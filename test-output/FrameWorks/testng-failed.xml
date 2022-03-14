@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FrameWorks]">
+  <test thread-count="5" name="hybrid(failed)">
+    <classes>
+      <class name="DriverFactory.DriverScript">
+        <methods>
+          <include name="startTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- DriverFactory.DriverScript -->
+    </classes>
+  </test> <!-- hybrid(failed) -->
+</suite> <!-- Failed suite [FrameWorks] -->
